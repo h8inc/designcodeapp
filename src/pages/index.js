@@ -82,8 +82,12 @@ const IndexPage = () => (
         style={{ marginBottom: `var(--space-3)` }}
       />
       <h1>
-        Welcome to <b>Gatsby!</b>
+        Hi, my name is <b>Nasko</b>.
       </h1>
+      <p> 
+      A digital and service designer that enjoys solving complex problems in a human-centric and data-driven way. 📈
+      </p>
+
       <p className={styles.intro}>
         <b>Example pages:</b>{" "}
         {samplePageLinks.map((link, i) => (
