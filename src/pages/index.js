@@ -70,24 +70,26 @@ const moreLinks = [
 const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
 
 const IndexPage = () => (
-  <Layout>
-    <div className={styles.textCenter}>
-      <StaticImage
-        src="../images/example.png"
-        loading="eager"
-        width={64}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt=""
-        style={{ marginBottom: `var(--space-3)` }}
-      />
-      <h1>
-        Hi, my name is <b>Nasko</b>.
-      </h1>
-      <p> 
+ 
+ 
+ 
+ <Layout>
+    
+  <div>
+    <div className="Hero">
+        <div className="HeroGroup">
+          <h1>
+          Hi, my name is <b>Nasko</b>.
+          </h1>
+          <p> 
       A digital and service designer that enjoys solving complex problems in a human-centric and data-driven way. 📈
       </p>
 
+        </div>
+  </div>
+
+      
+      
       <p className={styles.intro}>
         <b>Example pages:</b>{" "}
         {samplePageLinks.map((link, i) => (
