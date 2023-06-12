@@ -1,6 +1,10 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import { FaAngleDown } from 'react-icons/fa';
+import { animateScroll as scroll } from 'react-scroll';
+import HeroSection from '../components/HeroScrollSection.js';
+
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -74,6 +78,7 @@ const IndexPage = () => (
  
  
  <Layout>
+  
     
   <div>
     <div className="Hero">
@@ -84,6 +89,8 @@ const IndexPage = () => (
           <p> 
       A digital and service designer that enjoys solving complex problems in a human-centric and data-driven way. 📈
       </p>
+      
+      <HeroSection />
 
         </div>
   </div>
